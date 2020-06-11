@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" onAction="#potvrdi" prefHeight="35.0" prefWidth="120.0" text="Potvrdi" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets bottom="15.0" top="5.0" />
+         </GridPane.margin></Button>
+      <Button mnemonicParsing="false" onAction="#izlaz" prefHeight="35.0" prefWidth="120.0" text="Izlaz" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets top="70.0" />
+         </GridPane.margin></Button>
+      <TextField fx:id="imeIPrezimeText" maxWidth="100.0" minWidth="100.0" prefHeight="25.0" prefWidth="100.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="Ime i prezime:">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets left="18.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="userNameText" maxWidth="100.0" prefWidth="100.0" GridPane.halignment="CENTER">
+         <GridPane.margin>
+            <Insets top="80.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Korisničko ime: ">
+         <GridPane.margin>
+            <Insets left="13.0" top="80.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="lozinkaText" maxWidth="100.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets bottom="80.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Lozinka:" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="80.0" left="50.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="brojSatiText" maxWidth="100.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="Razrednik:" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="37.0" />
+         </GridPane.margin>
+      </Label>
+   </children>
+</GridPane>

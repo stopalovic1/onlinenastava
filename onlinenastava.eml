@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/onlinenastava"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="lib" value="project"/>
+		<level name="org.xerial:sqlite-jdbc:3.21.0" value="project"/>
+		<level name="jdbc-socket-factory-core-1.0.15" value="project"/>
+		<level name="mysql-socket-factory-1.0.15-javadoc" value="project"/>
+		<level name="mysql-connector-java-5.1.48" value="project"/>
+		<level name="jdk.packager" value="project"/>
+		<level name="lib1" value="project"/>
+	</levels>
+</component>
